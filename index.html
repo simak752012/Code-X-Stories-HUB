@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Code-X Stories HUB</h1>
+    <p>Your one stop storie reading web.</p>
+    <p>I'm sure you gonna love this.</p>
+
+    <a href="#" class="hover-button">All</a>
+    <a href="#" class="hover-button">Horror Stories</a>
+    <a href="#" class="hover-button">Comedy Stories</a>
+    <a href="#" class="hover-button">Thriller Stories</a>
+    <a href="#" class="hover-button">Action Stories</a>
+    <a href="#" class="hover-button">About Web</a>
+    <a href="#" class="hover-button">About Me</a>
+
+    <style>
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    p {
+        text-align: center;
+        color: white;
+    }
+
+    body {
+        background-color: #006994;
+    }
+
+    .hover-button {
+        /* ADDED: Ensures padding and transforms work correctly on <a> tags */
+        display: inline-block; 
+        
+        /* ADDED: Removes the default link underline */
+        text-decoration: none; 
+
+        /* Your existing styles */
+        padding: 15px 30px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .hover-button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    }
+    </style>
+</head>
+</html>
